@@ -28,7 +28,7 @@ body {
     width: 95%;
     display: grid;
     text-align: center;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     padding: 10px;
     gap: 10px;
 }
@@ -52,7 +52,7 @@ header {
 }
 
 .logo-container h1{
-    font-size: 75px;
+    font-size: 55px;
 }
 
 .text p{
@@ -67,8 +67,8 @@ img {
 }
 
 .i-btn {
-    width: 450px;
-    height: 40px;
+    width: 250px;
+    height: auto;
     padding: 10px;
     font-size: 20px;
     color: #fff;
@@ -98,7 +98,7 @@ button:hover {
 /* About CSS */
 .about-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 
 .about-buttons {
@@ -113,7 +113,7 @@ button:hover {
 
 .about-btn {
     width: auto;
-    height: 40px;
+    height: auto;
     padding: 10px 50px;
     margin: 10px;
     font-size: 20px;
@@ -147,13 +147,13 @@ button:hover {
 /* Register CSS */
 .register-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 
 .register-buttons {
     display: grid;
     text-align: end;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
 }
 
 .register-buttons a {
@@ -163,7 +163,7 @@ button:hover {
 
 .register-btn {
     width: auto;
-    height: 40px;
+    height: auto;
     padding: 10px 50px;
     margin: 10px;
     font-size: 20px;
@@ -247,7 +247,7 @@ button:hover {
 /* Activities CSS */
 .act-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 
 .act-buttons {
@@ -262,7 +262,7 @@ button:hover {
 
 .act-btn {
     width: auto;
-    height: 40px;
+    height: auto;
     padding: 10px 50px;
     margin: 10px;
     font-size: 20px;
@@ -275,7 +275,7 @@ button:hover {
 
 .event-btn {
     width: auto;
-    height: 60px;
+    height: auto;
     padding: 10px 50px;
     margin: 10px;
     font-size: 30px;
@@ -349,13 +349,13 @@ button:hover {
 /* Comments CSS */
 .cmt-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 
 .cmt-buttons {
     display: grid;
     text-align: end;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
 }
 
 .cmt-buttons a {
@@ -369,7 +369,7 @@ button:hover {
 
 .cmt-btn {
     width: auto;
-    height: 40px;
+    height: auto;
     padding: 10px 50px;
     margin: 10px;
     font-size: 20px;
@@ -429,14 +429,14 @@ button:hover {
 }
 
 .awen {
-    height: 250px;
+    height: 25px;
 }
 
 /* Globale CSS */
 
 .glo-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 
 .glo-buttons {
@@ -451,7 +451,7 @@ button:hover {
 
 .glo-btn {
     width: auto;
-    height: 40px;
+    height: auto;
     padding: 10px 50px;
     margin: 10px;
     font-size: 20px;
@@ -557,7 +557,7 @@ button:hover {
     
     .i-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px;
         font-size: 20px;
         color: #fff;
@@ -592,7 +592,7 @@ button:hover {
     
     .about-buttons {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
     
     .about-buttons a {
@@ -602,7 +602,7 @@ button:hover {
     
     .about-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -642,7 +642,7 @@ button:hover {
     .register-buttons {
         display: grid;
         text-align: end;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
     
     .register-buttons a {
@@ -652,7 +652,7 @@ button:hover {
     
     .register-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -751,7 +751,7 @@ button:hover {
     
     .act-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -764,7 +764,7 @@ button:hover {
     
     .event-btn {
         width: auto;
-        height: 60px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 30px;
@@ -845,7 +845,7 @@ button:hover {
     .cmt-buttons {
         display: grid;
         text-align: end;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
     
     .cmt-buttons a {
@@ -859,7 +859,7 @@ button:hover {
     
     .cmt-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -919,7 +919,7 @@ button:hover {
     }
     
     .awen {
-        height: 250px;
+        height: 25px;
     }
     
     /* Globale CSS */
@@ -931,7 +931,7 @@ button:hover {
     
     .glo-buttons {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
     
     .glo-buttons a {
@@ -941,7 +941,7 @@ button:hover {
     
     .glo-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1004,7 +1004,7 @@ button:hover {
         width: 95%;
         display: grid;
         text-align: center;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         padding: 10px;
         gap: 10px;
     }
@@ -1028,7 +1028,7 @@ button:hover {
     }
     
     .logo-container h1{
-        font-size: 45px;
+        font-size: 75px;
     }
     
     .text p{
@@ -1043,8 +1043,8 @@ button:hover {
     }
     
     .i-btn {
-        width: 350px;
-        height: 40px;
+        width: 450px;
+        height: auto;
         padding: 10px;
         font-size: 20px;
         color: #fff;
@@ -1089,7 +1089,7 @@ button:hover {
     
     .about-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1139,7 +1139,7 @@ button:hover {
     
     .register-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1189,7 +1189,7 @@ button:hover {
     }
     
     .lf-form input{
-        width: 200px;
+        width: 100px;
         padding: 10px 5px;
         margin: 10px;
         font-size: 20px;
@@ -1206,7 +1206,7 @@ button:hover {
     }
     
     .rt-form input{
-        width: 200px;
+        width: 100px;
         padding: 10px 5px;
         margin: 10px;
         font-size: 20px;
@@ -1223,7 +1223,7 @@ button:hover {
     /* Activities CSS */
     .act-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
     
     .act-buttons {
@@ -1238,7 +1238,7 @@ button:hover {
     
     .act-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1251,7 +1251,7 @@ button:hover {
     
     .event-btn {
         width: auto;
-        height: 60px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 30px;
@@ -1325,13 +1325,13 @@ button:hover {
     /* Comments CSS */
     .cmt-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
     
     .cmt-buttons {
         display: grid;
         text-align: end;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
     
     .cmt-buttons a {
@@ -1345,7 +1345,7 @@ button:hover {
     
     .cmt-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1405,19 +1405,19 @@ button:hover {
     }
     
     .awen {
-        height: 250px;
+        height: 25px;
     }
     
     /* Globale CSS */
     
     .glo-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
     
     .glo-buttons {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
     
     .glo-buttons a {
@@ -1427,7 +1427,7 @@ button:hover {
     
     .glo-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1573,7 +1573,7 @@ button:hover {
     
     .about-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1623,7 +1623,7 @@ button:hover {
     
     .register-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1722,7 +1722,7 @@ button:hover {
     
     .act-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1735,7 +1735,7 @@ button:hover {
     
     .event-btn {
         width: auto;
-        height: 60px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 30px;
@@ -1829,7 +1829,7 @@ button:hover {
     
     .cmt-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
@@ -1911,7 +1911,7 @@ button:hover {
     
     .glo-btn {
         width: auto;
-        height: 40px;
+        height: auto;
         padding: 10px 50px;
         margin: 10px;
         font-size: 20px;
