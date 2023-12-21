@@ -1,0 +1,1957 @@
+
+/* Index css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("imgs/background-img.jpeg");
+    height: 100%;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-single {
+    width: 95%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.gap-text {
+    margin-top: 200px;
+}
+
+.btn-double {
+    width: 95%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.tag-nav h1{
+    width: 100%;
+    font-size: 24px;
+    text-align: end;
+}
+
+header {
+    margin-top: -50px;
+    grid-column: span 2;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container h1{
+    font-size: 75px;
+}
+
+.text p{
+    margin-top: -30px;
+    font-size: 24px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.i-btn {
+    width: 450px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btm-text {
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* About CSS */
+.about-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.about-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.about-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about-btn {
+    width: auto;
+    height: 40px;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.more-text {
+    margin: 10px;
+}
+
+.about-btn:hover {
+    background-color: rgba(63, 60, 60, 0.69);
+}
+
+.about-text p{
+    font-size: 25px;
+    margin: 30px 50px;
+    text-align: justify;
+}
+
+.about-text h1{
+    margin: 30px 50px;
+}
+
+
+
+/* Register CSS */
+.register-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.register-buttons {
+    display: grid;
+    text-align: end;
+    grid-template-columns: 1fr;
+}
+
+.register-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.register-btn {
+    width: auto;
+    height: 40px;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.more-text {
+    margin: 10px;
+}
+
+.register-btn:hover {
+    background-color: rgba(63, 60, 60, 0.69);
+}
+
+.reg-form {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.register-inputs h1{
+    margin: 20px;
+}
+
+.reg-form a{
+    margin: 20px;
+}
+
+.lf-form {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: auto;
+}
+
+.rt-form {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: auto;
+}
+
+.lf-form label{
+    color: #fff;
+    font-size: 25px;
+}
+
+.lf-form input{
+    width: 200px;
+    padding: 10px 5px;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.9);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.rt-form label{
+    color: #fff;
+    font-size: 25px;
+}
+
+.rt-form input{
+    width: 200px;
+    padding: 10px 5px;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.9);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+/* Activities CSS */
+.act-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.act-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.act-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.act-btn {
+    width: auto;
+    height: 40px;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.event-btn {
+    width: auto;
+    height: 60px;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.act-btn:hover {
+    background-color: rgba(63, 60, 60, 0.69);
+}
+
+.act-text p{
+    font-size: 25px;
+    margin: 30px 50px;
+    text-align: justify;
+}
+
+.act-text h1{
+    margin: 30px 50px;
+}
+
+.top-imgs img {
+    width: 300px;
+    height: 200px;
+}
+
+.btm-img {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: grid;
+    text-align: start;
+    grid-template-columns: auto auto auto;
+}
+
+.btm-left img {
+    margin-top: 60px;
+    width: 200px;
+    height: 100px;
+}
+
+.btm-right {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.text-btn {
+    width: 100%;
+    display: flex;
+}
+
+.btm-right img{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.act-text h1{
+    font-size: 25px;
+}
+
+.act-text p{
+    font-size: 20px;
+}
+
+
+
+/* Comments CSS */
+.cmt-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.cmt-buttons {
+    display: grid;
+    text-align: end;
+    grid-template-columns: 1fr;
+}
+
+.cmt-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cmt-inputs h1{
+    margin: 20px;
+}
+
+.cmt-btn {
+    width: auto;
+    height: 40px;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.cmt-btn:hover {
+    background-color: rgba(63, 60, 60, 0.69);
+}
+
+.per-cmt {
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.per-cmt i{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.per-cmt p{
+    font-size: 25px;
+}
+
+.fper-cmt {
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.fper-cmt i{
+    margin-top: 25px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fper-cmt p{
+    font-size: 25px;
+}
+
+.cmt-add{
+    width: 100%;
+    flex-direction: column;
+}
+
+.cmt-add p{
+    margin: 20px;
+}
+
+.awen {
+    height: 250px;
+}
+
+/* Globale CSS */
+
+.glo-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.glo-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.glo-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.glo-btn {
+    width: auto;
+    height: 40px;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.more-text img{
+    width: 200px;
+    height: 100px;
+}
+
+.glo-btn:hover {
+    background-color: rgba(63, 60, 60, 0.69);
+}
+
+.glo-text p{
+    font-size: 20px;
+    margin: 30px 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+}
+
+.glo-text h1{
+    margin: 30px 50px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+}
+
+.glo-btm-text {
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 360px) {
+    
+    .btn-single {
+        width: 95%;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    
+    .btn-double {
+        width: 95%;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto ;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .tag-nav h1{
+        width: 100%;
+        font-size: 18px;
+        text-align: end;
+    }
+    
+    header {
+        grid-column: span 2;
+        text-align: center;
+    }
+    
+    .logo-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-container h1{
+        font-size: 30px;
+    }
+    
+    .text p{
+        font-size: 24px;
+    }
+    
+    img {
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+        margin-right: 10px; /* Adjust margin as needed */
+    }
+    
+    .i-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    button:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .btm-text {
+        text-align: end;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    
+    /* About CSS */
+    .about-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .about-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .about-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .about-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text {
+        margin: 10px;
+    }
+    
+    .about-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .about-text p{
+        font-size: 25px;
+        margin: 30px 50px;
+        text-align: justify;
+    }
+    
+    .about-text h1{
+        margin: 30px 50px;
+    }
+    
+    
+    
+    /* Register CSS */
+    .register-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .register-buttons {
+        display: grid;
+        text-align: end;
+        grid-template-columns: 1fr;
+    }
+    
+    .register-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .register-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text {
+        margin: 10px;
+    }
+    
+    .register-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .reg-form {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    
+    .register-inputs h1{
+        margin: 20px;
+    }
+    
+    .reg-form a{
+        margin: 20px;
+    }
+    
+    .lf-form {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: auto;
+    }
+    
+    .rt-form {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: auto;
+    }
+    
+    .lf-form label{
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .lf-form input{
+        width: 200px;
+        padding: 10px 5px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.9);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .rt-form label{
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .rt-form input{
+        width: 200px;
+        padding: 10px 5px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.9);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    /* Activities CSS */
+    .act-container {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    
+    .act-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .act-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .act-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .event-btn {
+        width: auto;
+        height: 60px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 30px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    .act-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .act-text p{
+        font-size: 25px;
+        margin: 30px 50px;
+        text-align: justify;
+    }
+    
+    .act-text h1{
+        margin: 30px 50px;
+    }
+    
+    .top-imgs img {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .btm-img {
+        margin-top: 20px;
+        margin-left: 50px;
+        display: grid;
+        text-align: start;
+        grid-template-columns: auto  ;
+    }
+    
+    .btm-left img {
+        margin-top: 60px;
+        width: 200px;
+        height: 100px;
+    }
+    
+    .btm-right {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .text-btn {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .btm-right img{
+        width: 200px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    .act-text h1{
+        font-size: 25px;
+    }
+    
+    .act-text p{
+        font-size: 20px;
+    }
+    
+    
+    
+    /* Comments CSS */
+    .cmt-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .cmt-buttons {
+        display: grid;
+        text-align: end;
+        grid-template-columns: 1fr;
+    }
+    
+    .cmt-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .cmt-inputs h1{
+        margin: 20px;
+    }
+    
+    .cmt-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    .cmt-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .per-cmt {
+        margin-left: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .per-cmt i{
+        font-size: 30px;
+        margin-right: 10px;
+        margin-top: 25px;
+    }
+    
+    .per-cmt p{
+        font-size: 25px;
+    }
+    
+    .fper-cmt {
+        margin-left: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .fper-cmt i{
+        margin-top: 25px;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    
+    .fper-cmt p{
+        font-size: 25px;
+    }
+    
+    .cmt-add{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .cmt-add p{
+        margin: 20px;
+    }
+    
+    .awen {
+        height: 250px;
+    }
+    
+    /* Globale CSS */
+    
+    .glo-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .glo-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .glo-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .glo-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text img{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .glo-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .glo-text p{
+        font-size: 20px;
+        margin: 30px 50px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+    }
+    
+    .glo-text h1{
+        margin: 30px 50px;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+    }
+    
+    .glo-btm-text {
+        text-align: start;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+
+}
+
+@media screen and (min-width: 361px) and (min-width: 601px) {
+
+    .btn-single {
+        width: 95%;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    
+    .btn-double {
+        width: 95%;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .tag-nav h1{
+        width: 100%;
+        font-size: 18px;
+        text-align: end;
+    }
+    
+    header {
+        grid-column: span 2;
+        text-align: center;
+    }
+    
+    .logo-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-container h1{
+        font-size: 45px;
+    }
+    
+    .text p{
+        font-size: 24px;
+    }
+    
+    img {
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+        margin-right: 10px; /* Adjust margin as needed */
+    }
+    
+    .i-btn {
+        width: 350px;
+        height: 40px;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    button:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .btm-text {
+        text-align: end;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    
+    /* About CSS */
+    .about-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .about-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .about-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .about-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text {
+        margin: 10px;
+    }
+    
+    .about-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .about-text p{
+        font-size: 25px;
+        margin: 30px 50px;
+        text-align: justify;
+    }
+    
+    .about-text h1{
+        margin: 30px 50px;
+    }
+    
+    
+    
+    /* Register CSS */
+    .register-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .register-buttons {
+        display: grid;
+        text-align: end;
+        grid-template-columns: 1fr;
+    }
+    
+    .register-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .register-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text {
+        margin: 10px;
+    }
+    
+    .register-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .reg-form {
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    
+    .register-inputs h1{
+        margin: 20px;
+    }
+    
+    .reg-form a{
+        margin: 20px;
+    }
+    
+    .lf-form {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: auto;
+    }
+    
+    .rt-form {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: auto;
+    }
+    
+    .lf-form label{
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .lf-form input{
+        width: 200px;
+        padding: 10px 5px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.9);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .rt-form label{
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .rt-form input{
+        width: 200px;
+        padding: 10px 5px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.9);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    /* Activities CSS */
+    .act-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .act-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .act-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .act-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .event-btn {
+        width: auto;
+        height: 60px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 30px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    .act-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .act-text p{
+        font-size: 25px;
+        margin: 30px 50px;
+        text-align: justify;
+    }
+    
+    .act-text h1{
+        margin: 30px 50px;
+    }
+    
+    .top-imgs img {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .btm-img {
+        margin-top: 20px;
+        margin-left: 50px;
+        display: grid;
+        text-align: start;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .btm-left img {
+        margin-top: 60px;
+        width: 200px;
+        height: 100px;
+    }
+    
+    .btm-right {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .text-btn {
+        width: 100%;
+        display: flex;
+    }
+    
+    .btm-right img{
+        width: 200px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    .act-text h1{
+        font-size: 25px;
+    }
+    
+    .act-text p{
+        font-size: 20px;
+    }
+    
+    
+    
+    /* Comments CSS */
+    .cmt-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .cmt-buttons {
+        display: grid;
+        text-align: end;
+        grid-template-columns: 1fr;
+    }
+    
+    .cmt-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .cmt-inputs h1{
+        margin: 20px;
+    }
+    
+    .cmt-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    .cmt-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .per-cmt {
+        margin-left: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .per-cmt i{
+        font-size: 30px;
+        margin-right: 10px;
+        margin-top: 25px;
+    }
+    
+    .per-cmt p{
+        font-size: 25px;
+    }
+    
+    .fper-cmt {
+        margin-left: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .fper-cmt i{
+        margin-top: 25px;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    
+    .fper-cmt p{
+        font-size: 25px;
+    }
+    
+    .cmt-add{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .cmt-add p{
+        margin: 20px;
+    }
+    
+    .awen {
+        height: 250px;
+    }
+    
+    /* Globale CSS */
+    
+    .glo-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .glo-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .glo-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .glo-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text img{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .glo-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .glo-text p{
+        font-size: 20px;
+        margin: 30px 50px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+    }
+    
+    .glo-text h1{
+        margin: 30px 50px;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+    }
+    
+    .glo-btm-text {
+        text-align: start;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 602px) and (min-width: 1025px) {
+
+    .btn-single {
+        width: 95%;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    
+    .btn-double {
+        width: 95%;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .tag-nav h1{
+        width: 100%;
+        font-size: 18px;
+        text-align: end;
+    }
+    
+    header {
+        grid-column: span 2;
+        text-align: center;
+    }
+    
+    .logo-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-container h1{
+        font-size: 75px;
+    }
+    
+    .text p{
+        font-size: 24px;
+    }
+    
+    img {
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+        margin-right: 10px; /* Adjust margin as needed */
+    }
+    
+    .i-btn {
+        width: 450px;
+        height: 40px;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    button:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .btm-text {
+        text-align: end;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    
+    /* About CSS */
+    .about-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .about-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .about-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .about-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text {
+        margin: 10px;
+    }
+    
+    .about-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .about-text p{
+        font-size: 25px;
+        margin: 30px 50px;
+        text-align: justify;
+    }
+    
+    .about-text h1{
+        margin: 30px 50px;
+    }
+    
+    
+    
+    /* Register CSS */
+    .register-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .register-buttons {
+        display: grid;
+        text-align: end;
+        grid-template-columns: 1fr;
+    }
+    
+    .register-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .register-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text {
+        margin: 10px;
+    }
+    
+    .register-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .reg-form {
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    
+    .register-inputs h1{
+        margin: 20px;
+    }
+    
+    .reg-form a{
+        margin: 20px;
+    }
+    
+    .lf-form {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: auto;
+    }
+    
+    .rt-form {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: auto;
+    }
+    
+    .lf-form label{
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .lf-form input{
+        width: 200px;
+        padding: 10px 5px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.9);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .rt-form label{
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .rt-form input{
+        width: 200px;
+        padding: 10px 5px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.9);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    /* Activities CSS */
+    .act-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .act-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .act-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .act-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .event-btn {
+        width: auto;
+        height: 60px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 30px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    .act-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .act-text p{
+        font-size: 25px;
+        margin: 30px 50px;
+        text-align: justify;
+    }
+    
+    .act-text h1{
+        margin: 30px 50px;
+    }
+    
+    .top-imgs img {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .btm-img {
+        margin-top: 20px;
+        margin-left: 50px;
+        display: grid;
+        text-align: start;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .btm-left img {
+        margin-top: 60px;
+        width: 200px;
+        height: 100px;
+    }
+    
+    .btm-right {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .text-btn {
+        width: 100%;
+        display: flex;
+    }
+    
+    .btm-right img{
+        width: 200px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    .act-text h1{
+        font-size: 25px;
+    }
+    
+    .act-text p{
+        font-size: 20px;
+    }
+    
+    
+    
+    /* Comments CSS */
+    .cmt-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .cmt-buttons {
+        display: grid;
+        text-align: end;
+        grid-template-columns: 1fr;
+    }
+    
+    .cmt-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .cmt-inputs h1{
+        margin: 20px;
+    }
+    
+    .cmt-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    
+    .cmt-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .per-cmt {
+        margin-left: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .per-cmt i{
+        font-size: 30px;
+        margin-right: 10px;
+        margin-top: 25px;
+    }
+    
+    .per-cmt p{
+        font-size: 25px;
+    }
+    
+    .fper-cmt {
+        margin-left: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .fper-cmt i{
+        margin-top: 25px;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    
+    .fper-cmt p{
+        font-size: 25px;
+    }
+    
+    .cmt-add{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .cmt-add p{
+        margin: 20px;
+    }
+    
+    .awen {
+        height: 250px;
+    }
+    
+    /* Globale CSS */
+    
+    .glo-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .glo-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .glo-buttons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .glo-btn {
+        width: auto;
+        height: 40px;
+        padding: 10px 50px;
+        margin: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .more-text img{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .glo-btn:hover {
+        background-color: rgba(63, 60, 60, 0.69);
+    }
+    
+    .glo-text p{
+        font-size: 20px;
+        margin: 30px 50px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+    }
+    
+    .glo-text h1{
+        margin: 30px 50px;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgba(200, 194, 194, 0.69);
+    }
+    
+    .glo-btm-text {
+        text-align: start;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
